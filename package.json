@@ -1,13 +1,14 @@
 {
-  "name": "profiledata-testingdb",
+  "name": "fake-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "fake server with fake database",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Youssef Zidan",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }

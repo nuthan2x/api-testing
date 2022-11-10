@@ -8,3 +8,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+
+//https://my-json-server.typicode.com/nuthan2x/api-testing

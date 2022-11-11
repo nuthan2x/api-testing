@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
 
-  axios.get('https://api-poster-examplex.herokuapp.com/users')
+  axios.get('https://')
 .then(res => console.log(res.data)) 
 .catch(err => console.log(err))
 
